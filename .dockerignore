@@ -1,0 +1,6 @@
+dockerfile
+.dockerignore
+.*.swp
+*.yaml
+*.yml
+.git
