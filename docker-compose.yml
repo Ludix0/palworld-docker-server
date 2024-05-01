@@ -4,6 +4,7 @@ services:
       restart: unless-stopped
       container_name: palworld
       environment:
+          # ajouter des arguments 
         - Arguments="-useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS"
         - Difficulty=None
         - DayTimeSpeedRate=1.000000
