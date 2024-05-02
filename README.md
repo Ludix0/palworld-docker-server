@@ -1,16 +1,16 @@
-bien venue dans un service palworld serveur dockers.
+Welcome to Palworld Docker server service.
 ====================================================
 
-Lien diver
-----------
-Lien Docker: https://hub.docker.com/r/ludix0/palworld /n
-Lien des parametrages serveur: https://tech.palworldgame.com/category/settings-and-operations
+Links
+-----
+Docker Link: https://hub.docker.com/r/ludix0/palworld
+
+Server settings link: https://tech.palworldgame.com/category/settings-and-operations
 
 docker compose
 --------------
-
-Ne pas toucher a la deuxiemme partie des ports.
-Il est conseiler de rajhouter dans les arguments de rajouter "-useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS".
+Do not modify the second part of the ports.
+It is recommended to add "-useperfthreads -NoAsyncLoadingThread -UseMultithrea"
 
 ```
 services:
